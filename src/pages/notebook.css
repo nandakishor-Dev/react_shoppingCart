@@ -1,0 +1,38 @@
+.price{
+    margin-right: 5% ;
+    font-size: medium;
+    color: orange;
+  
+}
+.description{
+    margin-right: 90% ;
+}
+.cardP{
+    padding: 2vw;
+    /* box-shadow: 0 0 15px 15px #6d6666; */
+
+    
+
+}
+.bookContainer{
+
+    padding-top: 5vw;
+
+}
+.addToCart{
+    margin-right: 10%;
+    padding-top: 2vw;
+}
+.cardPic{
+    border-radius: 5px;
+}
+#notesPage{
+    justify-content: center;
+    
+}
+#saniPage{
+    justify-content: center;
+}
+#bagPage{
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+.headingTitle{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 2vw;
+    margin-top: 10%;
+    color: slateblue;
+}
+.totalSpan{
+    font-size: medium;
+
+}
+.bn{
+    color: blueviolet;
+  
+}
+.gTotal{
+    color: green;
+    text-shadow: .5px .5px #363232;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.applyPromo{
+    padding-left: 2vw;
+}
+.finalButton{
+    padding-bottom: 3vw;
+}
+.finalt{
+    margin-top: .6vw;
+    color: orange;
+    font-size: 1.3vw;
+    text-shadow: .5px .5px #363232;
+
+
+}
+.discount{
+    padding-top: .6vw;
+    padding-bottom: .6vw;
+    color: rgb(25, 216, 105);
+}

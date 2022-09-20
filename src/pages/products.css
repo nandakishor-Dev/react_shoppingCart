@@ -1,0 +1,24 @@
+.cardContainer {
+    padding-top: 2vw;
+    /* row-gap: 12vw; */
+
+}
+#productsPage{
+    justify-content: center;
+}
+
+
+
+.cardFirst {
+    
+    padding-right: 2vw;
+    /* column-gap: 4vw; */
+}
+.productsPage{
+    padding-top: 4vw;
+    color: rgb(28, 121, 197);
+}
+.cardPic{
+    width: 10vw;
+    height: 20vw;
+}
