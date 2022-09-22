@@ -22,7 +22,21 @@ export default function Shopcart() {
 
     const checkout= () =>{
 
+        if (sanitize.length>=10 &&books.length>=3) {
         toast("Products Will Reach You Soon")
+
+            
+        }else{
+            toast(" Purchase atleast 10 sanitizer")
+
+        }
+
+        if (books.length<3) {
+            toast(" Purchase atleast 3 Notebooks")
+            
+
+        }
+
     }
 
 
