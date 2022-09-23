@@ -19,40 +19,54 @@ export default function Products() {
                     <div className="row" id='productsPage'>
                         <Card className='cardFirst' sx={{ maxWidth: 300 }}>
                             <Link to='/notebook'> <CardMedia className='cardPic'
-                            component="img"
-                            alt="..."
-                            height="230"
-                            image="assets/images/book.jpg"
-                             /> </Link>
+                                component="img"
+                                alt="..."
+                                height="230"
+                                image="assets/images/book.jpg"
+                            /> </Link>
                             <CardContent>
-                            Notebooks
-                            
+
+                                <span className='proName'>Notebooks</span>
+                            </CardContent>
+
+                            <CardContent>
+                                <span>Minimum Quantity 2</span>
+
                             </CardContent>
 
                         </Card>
                         <Card className='cardFirst' sx={{ maxWidth: 300 }}>
                             <Link to='/sanitizer'> <CardMedia className='cardPic'
-                            component="img"
-                            alt="..."
-                            height="230"
-                            image="assets/images/sanitizer.jpg"
-                             /> </Link>
+                                component="img"
+                                alt="..."
+                                height="230"
+                                image="assets/images/sanitizer.jpg"
+                            /> </Link>
                             <CardContent>
-                           
-                            Sanitizer
+                                <span className='proName'>Sanitizer</span>
+
+                            </CardContent>
+                            <CardContent>
+                                <span>Min Quantity 10</span>
+
                             </CardContent>
 
                         </Card>
                         <Card className='cardFirst' sx={{ maxWidth: 300 }}>
                             <Link to='/bag'> <CardMedia className='cardPic'
-                            component="img"
-                            alt="..."
-                            height="230"
-                            image="assets/images/bag.jpg"
-                             /> </Link>
+                                component="img"
+                                alt="..."
+                                height="230"
+                                image="assets/images/bag.jpg"
+                            /> </Link>
                             <CardContent>
-                           
-                            Bags
+
+                                <span className='proName'>Bags</span>
+                            </CardContent>
+
+                            <CardContent>
+                                <span>Maximum Quantity 2</span>
+
                             </CardContent>
 
                         </Card>
