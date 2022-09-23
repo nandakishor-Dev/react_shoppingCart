@@ -47,7 +47,7 @@ export default function Products() {
 
                             </CardContent>
                             <CardContent>
-                                <span>Min Quantity 10</span>
+                                <span>Minimum Quantity 10</span>
 
                             </CardContent>
 
