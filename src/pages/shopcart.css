@@ -39,3 +39,8 @@
     padding-bottom: .6vw;
     color: rgb(25, 216, 105);
 }
+
+.empty{
+    font-size: 2.5vw;
+    color: red;
+}

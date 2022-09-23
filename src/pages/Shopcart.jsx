@@ -20,27 +20,27 @@ export default function Shopcart() {
     const [total, SetTotal] = useState("")
     const [grandtotal, SetGtotal] = useState(0)
 
-    const checkout= () =>{
+    const checkout = () => {
 
-        if (sanitize.length>=10 &&books.length>=3) {
-        toast("Products Will Reach You Soon")
+        if (sanitize.length >= 10 && books.length >= 3) {
+            toast("Products Will Reach You Soon")
 
-            
-        }else{
+
+        } else {
             toast(" Purchase atleast 10 sanitizer")
 
         }
 
-        if (books.length<3) {
+        if (books.length < 3) {
             toast(" Purchase atleast 3 Notebooks")
-            
+
 
         }
 
     }
 
 
-    
+
 
     const promo = (event) => {
 
@@ -56,7 +56,7 @@ export default function Shopcart() {
             if (promoOffer != 0) {
                 console.log("Coupon applied");
                 toast("Coupon already applied")
-                
+
             } else {
                 console.log(total);
 
@@ -194,7 +194,7 @@ export default function Shopcart() {
 
                 <div className="row">
 
-                    <th className='finalt'>  Total:{total} <span className='totalSpan'></span></th><br />
+                    {cartData.length > 0 ? <th className='finalt'>  Total:{total} <span className='totalSpan'></span></th> : ""}<br />
 
 
 
@@ -221,12 +221,14 @@ export default function Shopcart() {
 
 
                 </div>
-                <div className="row">
+                {cartData.length > 0 ?
+                    <div className="row">
 
 
 
-                    <th className='finalButton'>  <Button variant='contained' onClick={checkout}>Check Out</Button></th>
-                </div>
+                        <th className='finalButton'>  <Button variant='contained' onClick={checkout}>Check Out</Button></th>
+                    </div>
+                    : <span className='empty'> Your Cart Is Empty!!!</span>}
 
             </div>
             <ToastContainer>position="top-right"
@@ -238,7 +240,7 @@ export default function Shopcart() {
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
-               </ToastContainer>
+            </ToastContainer>
 
 
 
