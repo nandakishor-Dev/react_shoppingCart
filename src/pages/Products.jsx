@@ -17,7 +17,7 @@ export default function Products() {
 
                 <div className="cardContainer">
                     <div className="row" id='productsPage'>
-                        <Card className='cardFirst' sx={{ maxWidth: 300 }}>
+                        <Card className='cardFirst' sx={{ maxWidth: 340 }}>
                             <Link to='/notebook'> <CardMedia className='cardPic'
                                 component="img"
                                 alt="..."
@@ -35,7 +35,7 @@ export default function Products() {
                             </CardContent>
 
                         </Card>
-                        <Card className='cardFirst' sx={{ maxWidth: 300 }}>
+                        <Card className='cardFirst' sx={{ maxWidth: 340 }}>
                             <Link to='/sanitizer'> <CardMedia className='cardPic'
                                 component="img"
                                 alt="..."
@@ -52,7 +52,7 @@ export default function Products() {
                             </CardContent>
 
                         </Card>
-                        <Card className='cardFirst' sx={{ maxWidth: 300 }}>
+                        <Card className='cardFirst' sx={{ maxWidth: 340 }}>
                             <Link to='/bag'> <CardMedia className='cardPic'
                                 component="img"
                                 alt="..."
