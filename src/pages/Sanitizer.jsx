@@ -18,8 +18,10 @@ export default function Sanitizer() {
         const details = sanitizer.filter((reading) => {
 
             return reading.id===id
+            
 
         })
+        console.log(details);
 
         const flt = details[0];
         console.log(flt);
